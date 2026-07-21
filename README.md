@@ -31,13 +31,13 @@ URL del Sistema: https://laposadablanca.duckdns.org/
 
   # LEVANTAR EL BACKEND:
    **Configura tu archivo .env basado en el .env.example
-   cd (ruta del proyecto) luego cd backend
-   npm install
+   * cd (ruta del proyecto) luego cd backend
+   * npm install
    npm run dev
   # LEVANTAR EL FRONTEND:
-  cd (ruta del proyecto) luego cd frontend
-  npm install
-  npm run dev
+  * cd (ruta del proyecto) luego cd frontend
+  * npm install
+  * npm run dev
 
 imagenes del proyecto:
 
