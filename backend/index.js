@@ -61,12 +61,12 @@ const options = {
   cert: fs.readFileSync('/home/posada/conf/web/laposadablanca.duckdns.org/ssl/laposadablanca.duckdns.org.crt')
 };
 
-// Función asíncrona para arrancar el servidor
+
 async function iniciarServidor() {
     try {
         await pruebaConect();
         
-        // Servidor HTTPS
+        
         https.createServer(options, app).listen(PORT, () => {
             console.log(`Servidor HTTPS activo en: https://laposadablanca.duckdns.org:${PORT}`);
         });
